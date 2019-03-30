@@ -1,0 +1,33 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    background-color: #f8f8f9;
+
+  }
+
+.first_info_photo{
+    width: 1800px;
+    height: 300px;
+    margin: 100px;
+    padding: 16px;
+    border: 1px solid #eaeaea;
+}
+
+form {
+  max-width: 480px;
+  margin: 50px auto;
+  padding: 16px;
+  border: 1px solid #eaeaea;
+}
+  
+img {
+    width: 150px;
+    height: 225;
+    display: inline-block;
+}
+
+.first_info{
+    margin-left: 50px;
+    vertical-align: top;
+    display: inline-block;
+}
