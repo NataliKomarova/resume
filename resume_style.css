@@ -5,29 +5,86 @@ body {
 
   }
 
-.first_info_photo{
-    width: 1800px;
-    height: 300px;
-    margin: 100px;
-    padding: 16px;
+.resume{
+    width: 600px;
+    margin: auto;
+    padding: 5px;
     border: 1px solid #eaeaea;
 }
 
 form {
-  max-width: 480px;
-  margin: 50px auto;
-  padding: 16px;
   border: 1px solid #eaeaea;
+  padding: 5px;
 }
-  
+
 img {
     width: 150px;
     height: 225;
     display: inline-block;
+    border-radius: 5px;
+}
+
+.first_p{
+  margin-top: 0;
 }
 
 .first_info{
-    margin-left: 50px;
+    margin-left: 20px;
     vertical-align: top;
     display: inline-block;
+    padding: 0px;
+}
+
+.first_info_photo {
+  padding: 0px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+button,
+select {
+  font-size: 14px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+i{
+  margin-left: 5px;
+}
+
+.subtitle{
+  font-size: 16px;
+  font-weight:bold;
+  padding: 5px;
+}
+
+.group {
+  display: block;
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+
+button[type = "submit"]{
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.education {
+  margin: auto;
+  border-collapse: collapse;
+  background-color: #e0e0e2
+}
+
+.education td,
+.education th{
+  padding: 5px;
+  border-top: 3px solid rgb(255, 255, 255);
+  border-bottom: 3px solid rgb(255, 255, 255);
+  text-align: center;
+}
+
+.education tr:nth-child(2n) {
+  background-color: #f8f8f9;
 }
