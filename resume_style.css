@@ -49,6 +49,12 @@ select {
   border-radius: 5px;
 }
 
+input[type="text"]:hover,
+input[type="date"]:hover,
+input[type="number"]:hover {
+background-color: lemonchiffon;
+}
+
 i{
   margin-left: 5px;
 }
