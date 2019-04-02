@@ -13,11 +13,11 @@
 <body>
     <div class="resume">
         <h1>Вакансия: Junior Frontend Developer</h1>
-        <div class="first_info_photo">
+        <div class="first-info-photo">
             <img src="IMG_7092.png" alt="Photo">
-            <div class="first_info">
-                <p class="first_p"><span class="subtitle">Имя Фамилия: </span>Наталья Комарова</p>
-                <p><span class="subtitle">Ссылка: </span><a href="https://github.com/NataliKomarova/resume.git"  target="_blank">Ссылка на Git Repository</a></p>
+            <div class="first-info">
+                <p class="first-p"><span class="subtitle">Имя Фамилия: </span>Наталья Комарова</p>
+                <p><span class="subtitle">Ссылка: </span><a class="repository-link" href="https://github.com/NataliKomarova/resume.git"  target="-blank">Ссылка на Git Repository</a></p>
                 <p><span class="subtitle">Опыт работы: </span>Инженер, 3 года</p>
             </div>
         </div>
@@ -39,14 +39,14 @@
             </div>
             <div>
                 <p><span class="subtitle">Ключевые навыки:</span></p>
-                <ul class = "skill_list">
+                <ul class = "skill-list">
                     <li>MatLab</li>
                     <li>C/C++</li>
                     <li>Java</li>
                     <li>Git</li>
                 </ul>
-                <input type="text" id="add_skill" name="add_skill" placeholder="введите навык...">
-                <button type="button" class="add_skill">Добавить навык</button>
+                <input type="text" id="add-skill" name="add-skill" placeholder="введите навык...">
+                <button type="button" class="add-skill">Добавить навык</button>
             </div>
             <div>
                 <label for="sociability" class="subtitle">Коммуникабельность: </label>
@@ -79,17 +79,17 @@
                 </select>
             </div>
             <div>
-                <label for="desired_salary" class="subtitle">Желаемая з/п: </label>
-                <input type="number" id="desired_salary" name="desired_salary" placeholder="введите значение...">
+                <label for="desired-salary" class="subtitle">Желаемая з/п: </label>
+                <input type="number" id="desired-salary" name="desired-salary" placeholder="введите значение...">
             </div>
             <div>
                 <label class="group subtitle">Подходит по критериям:</label>
-                <input type="checkbox" id="english" value="english" name="fits_on"><label for="english">Знание
+                <input type="checkbox" id="english" value="english" name="fits-on"><label for="english">Знание
                     английского</label>
-                <input type="checkbox" id="salary" value="salary" name="fits_on"><label for="salary">Оклад</label>
-                <input type="checkbox" id="skills" value="skills" name="fits_on"><label for="skills">Навыки</label>
-                <input type="checkbox" id="our_person" value="our_person" name="fits_on" checked><label
-                    for="our_person">Сразу видно, что свой человек</label>
+                <input type="checkbox" id="salary" value="salary" name="fits-on"><label for="salary">Оклад</label>
+                <input type="checkbox" id="skills" value="skills" name="fits-on"><label for="skills">Навыки</label>
+                <input type="checkbox" id="our-person" value="our-person" name="fits-on" checked><label
+                    for="our-person">Сразу видно, что свой человек</label>
             </div>
             <div>
                 <p><span class="subtitle">Образование, курсы и т.п.:</span></p>
@@ -101,21 +101,28 @@
                             <th>Наименование учебного заведения, курсов</th>
                         </tr>
                     </thead>
-                    <tr>
-                        <td>1</td>
-                        <td>2001-2012</td>
-                        <td>Гимназия №1, г.Ишимбай</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>2012-2016</td>
-                        <td>СПбГЭТУ "ЛЭТИ" (бакалавриат)</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>2016-2018</td>
-                        <td>СПбГЭТУ "ЛЭТИ" (магистратура)</td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>2001-2012</td>
+                            <td>Гимназия №1, г.Ишимбай</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>2012-2016</td>
+                            <td>СПбГЭТУ "ЛЭТИ" (бакалавриат)</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>2016-2018</td>
+                            <td>СПбГЭТУ "ЛЭТИ" (магистратура)</td>
+                        </tr>
+                        <tr>
+                                <td>4</td>
+                                <td>2016-2018</td>
+                                <td>Строчка для красоты</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </form>

@@ -1,6 +1,6 @@
 body {
     font-family: 'Lato', sans-serif;
-    color: #333;
+    color: #2d3436;
     background-color: #f8f8f9;
 
   }
@@ -24,19 +24,28 @@ img {
     border-radius: 5px;
 }
 
-.first_p{
+.first-p{
   margin-top: 0;
 }
 
-.first_info{
+.first-info{
     margin-left: 20px;
     vertical-align: top;
     display: inline-block;
     padding: 0px;
 }
 
-.first_info_photo {
+.first-info-photo {
   padding: 0px;
+}
+
+.repository-link{
+  text-decoration: unset;
+  color: #636e72;
+}
+
+.repository-link:hover{
+  color: #d63031;
 }
 
 input[type="text"],
@@ -46,16 +55,24 @@ button,
 select {
   font-size: 14px;
   margin-top: 10px;
-  border-radius: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #dfe6e9;
+  cursor: pointer;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  cursor: pointer;
 }
 
 input[type="text"]:hover,
 input[type="date"]:hover,
 input[type="number"]:hover {
-background-color: lemonchiffon;
+background-color: #b2bec3;
 }
 
-i{
+.fa-calendar-alt{
   margin-left: 5px;
 }
 
@@ -80,7 +97,7 @@ button[type = "submit"]{
 .education {
   margin: auto;
   border-collapse: collapse;
-  background-color: #e0e0e2
+  background-color: white;
 }
 
 .education td,
@@ -91,6 +108,31 @@ button[type = "submit"]{
   text-align: center;
 }
 
-.education tr:nth-child(2n) {
-  background-color: #f8f8f9;
+.education thead tr {
+  background-color: #636e72;
+}
+
+.education tbody tr:nth-child(2n) {
+  background-color: #dfe6e9;
+}
+
+.education tbody tr:hover {
+  background-color: #b2bec3;
+}
+
+input:focus,
+button:focus,
+select{
+  outline: none;
+}
+
+button{
+  border: 1px dashed #636e72;
+  background: linear-gradient(45deg,#b2bec3,#dfe6e9);
+  padding: 5px 15px;
+  box-shadow: 0 0 5px 2px;
+}
+
+button:hover{
+  opacity: 0.8;
 }
